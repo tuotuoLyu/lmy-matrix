@@ -1,7 +1,7 @@
 ---
 library_name: peft
 license: other
-base_model: /home/lvmingyang/llama/Meta-Llama-3-8B-Instruct
+base_model: meta-llama/Meta-Llama-3-8B-Instruct
 tags:
 - llama-factory
 - lora
@@ -16,7 +16,7 @@ should probably proofread and complete it, then remove this comment. -->
 
 # sft
 
-This model is a fine-tuned version of [/home/lvmingyang/llama/Meta-Llama-3-8B-Instruct](https://huggingface.co//home/lvmingyang/llama/Meta-Llama-3-8B-Instruct) on the my_converted_alpaca dataset.
+This model is a fine-tuned version of [meta-llama/Meta-Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) on the my_converted_alpaca dataset.
 It achieves the following results on the evaluation set:
 - Loss: 0.4695
 
